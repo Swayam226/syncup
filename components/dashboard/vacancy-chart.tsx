@@ -55,7 +55,6 @@ function CustomTooltip({ active, payload, label }: { active?: boolean; payload?:
 export function VacancyChart() {
   return (
     <div className="rounded-xl bg-card p-5 shadow-sm">
-      {/* Header */}
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <h4 className="text-base font-semibold text-foreground">
           Vacancy Stats
@@ -86,7 +85,6 @@ export function VacancyChart() {
         </div>
       </div>
 
-      {/* Chart */}
       <div className="h-[300px] w-full">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data}>

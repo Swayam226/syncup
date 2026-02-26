@@ -6,7 +6,6 @@ import Image from "next/image"
 export function Topbar() {
   return (
     <header className="flex flex-col gap-3 border-b border-border bg-card px-4 py-3 sm:h-[60px] sm:flex-row sm:items-center sm:justify-between sm:px-6">
-      {/* Search */}
       <div className="relative w-full max-w-[480px]">
         <input
           type="text"
@@ -16,7 +15,6 @@ export function Topbar() {
         <Search className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
       </div>
 
-      {/* Right side */}
       <div className="flex items-center gap-3 sm:gap-4">
         <button
           className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground hover:bg-accent"

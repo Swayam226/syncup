@@ -39,7 +39,6 @@ const applications = [
 export function JobApplicationTable() {
   return (
     <div className="rounded-xl bg-card p-5 shadow-sm">
-      {/* Header */}
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <h4 className="text-base font-semibold text-foreground">
           Job Application Status
@@ -70,7 +69,6 @@ export function JobApplicationTable() {
         </div>
       </div>
 
-      {/* Table */}
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead>

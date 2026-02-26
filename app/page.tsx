@@ -9,14 +9,16 @@ import { Suggestions } from "@/components/home/suggestions"
 export default function HomePage() {
   return (
     <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 p-4 md:flex-row md:p-5">
-      {/* Left Column */}
+      <section className="flex flex-col gap-5 lg:hidden">
+        <ProfileCard />
+      </section>
+
       <aside className="hidden w-[240px] shrink-0 flex-col gap-5 lg:flex">
         <ProfileCard />
         <AnalyticsWidget />
         <SosmedStories />
       </aside>
 
-      {/* Center Feed */}
       <section className="flex min-w-0 flex-1 flex-col gap-5">
         <CreatePost />
         <FeedPost
@@ -45,7 +47,11 @@ export default function HomePage() {
         />
       </section>
 
-      {/* Right Column */}
+      <section className="flex flex-col gap-5 lg:hidden">
+        <AnalyticsWidget />
+        <SosmedStories />
+      </section>
+
       <aside className="hidden w-[260px] shrink-0 flex-col gap-5 xl:flex">
         <HireBanner />
         <Suggestions />

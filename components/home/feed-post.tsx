@@ -39,7 +39,6 @@ export function FeedPost({
 }: FeedPostProps) {
   return (
     <div className="rounded-xl border border-[#6c63ff]/20 bg-card p-5 shadow-sm">
-      {/* Header */}
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <Image
@@ -59,7 +58,6 @@ export function FeedPost({
         </button>
       </div>
 
-      {/* Content */}
       <p className="mb-3 text-sm leading-relaxed text-foreground">
         {boldText ? (
           <>
@@ -72,7 +70,6 @@ export function FeedPost({
         )}
       </p>
 
-      {/* Image */}
       {image && (
         <div className="mb-4 overflow-hidden rounded-lg">
           <Image
@@ -85,7 +82,6 @@ export function FeedPost({
         </div>
       )}
 
-      {/* Engagement */}
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3 border-b border-border pb-3">
         <div className="flex items-center gap-4">
           <button className="flex items-center gap-1.5 text-muted-foreground hover:text-primary">
@@ -116,7 +112,6 @@ export function FeedPost({
         </div>
       </div>
 
-      {/* Comment input */}
       <div className="flex items-center gap-3">
         <Image
           src="/images/avatar-user.jpg"

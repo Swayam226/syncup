@@ -7,7 +7,6 @@ import { JobApplicationTable } from "@/components/dashboard/job-application-tabl
 export default function DashboardPage() {
   return (
     <div className="mx-auto w-full max-w-[1200px] p-4 md:p-5">
-      {/* Header */}
       <div className="mb-5 flex flex-wrap items-center justify-between gap-4">
         <div>
           <h1 className="text-xl font-bold text-foreground">
@@ -28,18 +27,14 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Stats */}
       <StatsCards />
 
-      {/* Main content */}
       <div className="mt-5 flex flex-col gap-5 xl:flex-row">
-        {/* Left - Charts */}
         <div className="flex min-w-0 flex-1 flex-col gap-5">
           <VacancyChart />
           <JobApplicationTable />
         </div>
 
-        {/* Right - Recommended Jobs */}
         <aside className="hidden w-[280px] shrink-0 xl:block">
           <RecommendedJobs />
         </aside>

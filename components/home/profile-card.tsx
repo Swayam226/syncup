@@ -4,7 +4,6 @@ import { Pencil } from "lucide-react"
 export function ProfileCard() {
   return (
     <div className="rounded-xl bg-card p-5 shadow-sm">
-      {/* Avatar */}
       <div className="flex flex-col items-center">
         <div className="relative mb-3">
           <Image
@@ -21,7 +20,6 @@ export function ProfileCard() {
         <p className="text-sm text-muted-foreground">UI / UX Designer</p>
       </div>
 
-      {/* Progress */}
       <div className="mt-4">
         <div className="mb-1 flex items-center justify-between">
           <span className="text-xs text-muted-foreground">75% Completed</span>
@@ -38,7 +36,6 @@ export function ProfileCard() {
         </div>
       </div>
 
-      {/* Buttons */}
       <div className="mt-4 flex flex-col gap-3 sm:flex-row">
         <button className="flex-1 rounded-lg border border-border px-3 py-2 text-xs font-medium text-foreground hover:bg-accent">
           View Full Profile
