@@ -8,7 +8,7 @@ import { Topbar } from '@/components/layout/topbar'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'SyncUp - Professional Network',
+  title: 'SyncUp - Professional Job Network',
   description: 'Network without limits and hire like a pro with SyncUp',
 }
 
