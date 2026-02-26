@@ -4,7 +4,7 @@ import { Lock } from "lucide-react"
 
 export function AnalyticsWidget() {
   return (
-    <div className="rounded-xl bg-card p-5 shadow-sm">
+    <div className="rounded-xl bg-card p-5 shadow-sm blur-[1px]">
       <div className="mb-1 flex items-center justify-between">
         <h4 className="text-sm font-semibold text-foreground">Analytics</h4>
       </div>
@@ -41,7 +41,7 @@ export function AnalyticsWidget() {
         </svg>
 
         {/* Analytics badge */}
-        <div className="absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full bg-[#6c63ff] px-3 py-1.5 text-[10px] font-medium text-white shadow-md">
+        <div className="absolute bottom-15 left-15 flex items-center gap-1.5 rounded-full bg-[#6c63ff] px-3 py-1.5 text-[10px] font-medium text-white shadow-md">
           <Lock className="h-3 w-3" />
           Analytics
         </div>
