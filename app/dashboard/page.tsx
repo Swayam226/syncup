@@ -6,7 +6,7 @@ import { JobApplicationTable } from "@/components/dashboard/job-application-tabl
 
 export default function DashboardPage() {
   return (
-    <div className="mx-auto w-full max-w-[1200px] p-5">
+    <div className="mx-auto w-full max-w-[1200px] p-4 md:p-5">
       {/* Header */}
       <div className="mb-5 flex flex-wrap items-center justify-between gap-4">
         <div>
@@ -17,7 +17,7 @@ export default function DashboardPage() {
             {"Here's what you need to focus on today"}
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <button className="flex items-center gap-2 rounded-lg border border-border bg-card px-4 py-2 text-sm text-foreground">
             Last 30 Days
             <ChevronDown className="h-4 w-4" />
@@ -32,7 +32,7 @@ export default function DashboardPage() {
       <StatsCards />
 
       {/* Main content */}
-      <div className="mt-5 flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 xl:flex-row">
         {/* Left - Charts */}
         <div className="flex min-w-0 flex-1 flex-col gap-5">
           <VacancyChart />

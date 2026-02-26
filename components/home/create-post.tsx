@@ -7,7 +7,7 @@ export function CreatePost() {
       <h4 className="mb-3 text-sm font-semibold text-foreground">
         Create a Post
       </h4>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3">
         <Image
           src="/images/avatar-user.jpg"
           alt="Your avatar"

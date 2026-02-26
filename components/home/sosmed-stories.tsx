@@ -37,7 +37,7 @@ export function SosmedStories() {
                 <p className="text-xs text-muted-foreground">{person.role}</p>
               </div>
             </div>
-            <div className="mt-2 flex gap-2">
+            <div className="mt-2 flex gap-2.5">
               <button className="flex items-center gap-1.5 rounded-full bg-[#6c63ff]/10 px-4 py-1.5 text-xs font-medium text-[#6c63ff]">
                 <UserPlus className="h-3.5 w-3.5" />
                 Follow

@@ -8,7 +8,7 @@ import { Suggestions } from "@/components/home/suggestions"
 
 export default function HomePage() {
   return (
-    <div className="mx-auto flex w-full max-w-[1200px] gap-5 p-5">
+    <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 p-4 md:flex-row md:p-5">
       {/* Left Column */}
       <aside className="hidden w-[240px] shrink-0 flex-col gap-5 lg:flex">
         <ProfileCard />

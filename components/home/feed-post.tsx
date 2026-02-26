@@ -40,7 +40,7 @@ export function FeedPost({
   return (
     <div className="rounded-xl border border-[#6c63ff]/20 bg-card p-5 shadow-sm">
       {/* Header */}
-      <div className="mb-3 flex items-center justify-between">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <Image
             src={avatar}
@@ -86,7 +86,7 @@ export function FeedPost({
       )}
 
       {/* Engagement */}
-      <div className="mb-3 flex items-center justify-between border-b border-border pb-3">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-3 border-b border-border pb-3">
         <div className="flex items-center gap-4">
           <button className="flex items-center gap-1.5 text-muted-foreground hover:text-primary">
             <ThumbsUp className="h-4 w-4" />

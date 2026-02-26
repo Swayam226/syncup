@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased bg-background`}>
-        <div className="flex h-screen overflow-hidden">
+        <div className="flex min-h-screen md:h-screen md:overflow-hidden">
           <Sidebar />
           <div className="flex flex-1 flex-col overflow-hidden">
             <Topbar />

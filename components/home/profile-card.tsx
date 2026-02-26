@@ -39,7 +39,7 @@ export function ProfileCard() {
       </div>
 
       {/* Buttons */}
-      <div className="mt-4 flex gap-3">
+      <div className="mt-4 flex flex-col gap-3 sm:flex-row">
         <button className="flex-1 rounded-lg border border-border px-3 py-2 text-xs font-medium text-foreground hover:bg-accent">
           View Full Profile
         </button>
